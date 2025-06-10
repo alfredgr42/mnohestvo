@@ -1,9 +1,9 @@
-list = input('Введите через пробел числа : ')
+list = input('Г‚ГўГҐГ¤ГЁГІГҐ Г·ГҐГ°ГҐГ§ ГЇГ°Г®ГЎГҐГ« Г·ГЁГ±Г«Г  : ')
 numbers = map(int, list.split())
 seen = set()
 for number in numbers:
-if number in seen:
-print("YES")
+    if number in seen:
+    print("YES")
 else:
-print("NO")
-seen.add(number)
+    print("NO")
+    seen.add(number)
